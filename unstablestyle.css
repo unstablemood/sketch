@@ -1,0 +1,146 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    display: flexbox;
+}
+html {
+   scroll-behavior: smooth;
+}
+:root {
+    --bg-color: rgb(240, 234, 226);
+    //--tamanho-do-texto: 20rem;
+    --margem: 25vh;
+}
+
+#textoEntrada {
+    //background-color: yellowgreen;
+    margin: 0 auto;
+    //display: flex;
+    text-align: center;
+    margin-top: 5vh;
+    transition: transform 300ms;
+}
+
+.sect {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+#entrada {
+    width:100%;
+    height: 1000px;
+    font-family: monospace;
+    //font-weight: 
+    color:rgb(184, 178, 207);
+    font-size: 3rem;
+}
+
+#textoEntrada1 {
+    display: block;
+    margin: auto;
+}
+
+#textoEntrada, #textoEntrada1 {
+    color:rgb(184, 178, 207);
+    display: inline-block; 
+    animation-name: instruc;
+    animation-duration: 3s;
+    color:rgb(184, 178, 207);
+}
+
+@keyframes instruc {
+    from {
+        opacity: 0;
+    }
+    to {
+    opacity: 50%;
+    
+    }
+}
+
+}
+
+
+#quadro2 {
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:rgba(62, 61, 66, 0.637) 1px dashed;
+}
+
+.botao {
+    background-color: none;
+    border-radius: 25%;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 2px rgb(62, 61, 66);
+    //font-weight: bold;
+    font-size: 3rem;
+    color: rgb(184, 178, 207);
+    cursor: pointer;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cinza {
+    background-color: var(--bg-color);
+
+}
+
+#quadro1 {
+    width: 100%;
+}
+
+#fundo1 {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#tubarao {
+    background-color: rgb(215, 224, 236);
+}
+
+#ceu1 {
+    background-color: var(--bg-color);
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#cinza2 {
+    font-size: var(--tamanho-do-texto);
+}
+
+#cinza3 {
+    display: flex;
+    margin: 0 auto;
+    width: 20vw;
+    //height: 5vh;
+}
+
+body {
+    margin: auto;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    font-family: monospace, 'courier-new';
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+.cavalos {
+    font-size: 3rem;
+    font-family: monospace;
+    margin: auto;
+
+}
